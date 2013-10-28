@@ -26,6 +26,18 @@ namespace AtributosMetodosEstaticos
             ContadorPessoas++;
         }
 
+        public Pessoas(String pessoa)
+        {
+            ContadorPessoas++;
+            this.Nome = pessoa;
+        }
+
+        public virtual String GetInfo()
+        {
+            return this.Nome;
+        }
+
+
 
 
 

@@ -21,18 +21,33 @@ namespace AtributosMetodosEstaticos
             Pessoas p1 = new Pessoas();
             p1.Nome = "Alexandre";
             
-
             listBox1.Items.Add(p1.Nome);
             listBox1.Items.Add(Pessoas.ContadorPessoas.ToString());
 
             Pessoas p2 = new Pessoas();
             p2.Nome = "Eduardo";
-            
-
             listBox1.Items.Add(p2.Nome);
             listBox1.Items.Add(Pessoas.ContadorPessoas.ToString());
 
+            Pessoas p3 = new Pessoas("Karine");
+            listBox1.Items.Add(p2.Nome);
+            listBox1.Items.Add(Pessoas.ContadorPessoas.ToString());
 
+            Pessoas p4 = new Pessoas("Polly");
+            listBox1.Items.Add(p2.Nome);
+            listBox1.Items.Add(Pessoas.ContadorPessoas.ToString());
+
+            PessoaFisica pf1 = new PessoaFisica("Alexandre Luis Kloch","000000000","111111111");
+
+            PessoaJuridica pj1 = new PessoaJuridica();
+            pj1.Nome = "Empresa do Zé Tião";
+            pj1.INSC = "INSC do Zé Tião";
+            pj1.CNPJ = "CNPJ do Zé Tião";
+            pj1.Socio = pf1;
+
+            listBox1.Items.Add(p1.GetInfo());
+            listBox1.Items.Add(pf1.GetInfo());
+            listBox1.Items.Add(pj1.GetInfo());
 
 
         }
