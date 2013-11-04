@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesWeb", "ClassesWeb\ClassesWeb.csproj", "{BFB1265F-C17C-410C-AFE2-3F30F3E8460E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB1265F-C17C-410C-AFE2-3F30F3E8460E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB1265F-C17C-410C-AFE2-3F30F3E8460E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB1265F-C17C-410C-AFE2-3F30F3E8460E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB1265F-C17C-410C-AFE2-3F30F3E8460E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
